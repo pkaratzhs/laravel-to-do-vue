@@ -1,5 +1,7 @@
 # frontend
-
+```
+this is the frontend for https://github.com/pkaratzhs/laravel-to-do-vue
+```
 ## Project setup
 ```
 npm install
