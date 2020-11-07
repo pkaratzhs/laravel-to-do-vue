@@ -1,6 +1,6 @@
 # frontend
 ```
-this is the frontend for https://github.com/pkaratzhs/laravel-to-do-vue
+this is the frontend for https://github.com/pkaratzhs/laravel-to-do-api
 ```
 ## Project setup
 ```
