@@ -10,7 +10,7 @@ import Navigation from '@/components/Navigation'
 new Darkmode().showWidget();
 export default {
   components:{
-    Navigation
+    Navigation,
   }
 }
 </script>
