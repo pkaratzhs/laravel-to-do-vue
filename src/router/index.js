@@ -33,6 +33,11 @@ const routes = [
     name: 'ListShow',
     component: () => import(/* webpackChunkName: "listshow" */ '../views/lists/ListShow.vue')
   },
+  {
+    path: '/create',
+    name: 'ListCreate',
+    component: () => import(/* webpackChunkName: "listcreate" */ '../views/lists/ListCreate.vue')
+  },
 ]
 
 const router = new VueRouter({

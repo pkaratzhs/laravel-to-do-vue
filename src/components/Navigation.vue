@@ -4,10 +4,10 @@
             <router-link class="nav-item nav-link" to="/">Home</router-link>
             <router-link class="nav-item nav-link" to="/about">About</router-link>
       </div>
-      <div class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      <div class="navbar-nav flex-row ml-md-auto d-md-flex">
         <div class="nav-item dropdown" v-if="loggedIn">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ user.email }}
+          {{ user.name }}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a href="#" class="dropdown-item" @click.prevent="logout()">Log Out</a>

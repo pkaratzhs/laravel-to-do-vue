@@ -1,4 +1,5 @@
 import axios from 'axios';
+import router from '@/router'
 /* STATE */
 const state={
   isLoggedIn: false,
@@ -23,6 +24,7 @@ const actions = {
       await axios.post('/logout');
       commit('setUser',{})
       commit('setLoggedIn',false)
+      router.go({name:'Home'})
     }catch (e){
       console.log(e)
     }
