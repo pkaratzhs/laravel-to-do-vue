@@ -63,7 +63,10 @@ export default {
         axios.delete(`api/lists/${this.list.id}`).then(this.$router.push({name:'Home'}))
     },
     editTask(task){
-        axios.put(`api/tasks/${task.id}`,{title:task.title})
+        axios.put(`api/tasks/${task.id}`,{
+                title:task.title,
+                completed:task.completed
+            })
              .then(resp=> {
                     if(resp.status=='200')
                         task.isEditting = false;
